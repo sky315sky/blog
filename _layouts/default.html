@@ -39,14 +39,12 @@
             {% if link.class == 'home' %}
                 {% assign homeClass = 'home ' %}
             {% endif %}
-			<!--
             <li class="{{ homeClass }}{{ active }}">
                 <a href="{{ link.url }}" rel="bookmark" title="{{link.text}}">
                     <i class="{{ link.icon }}"></i>
                 </a>
                 {{ indicator }}
             </li>
-			-->
             {% endfor %}
         </ul>
     </nav>
